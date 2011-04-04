@@ -1,0 +1,7 @@
+<div class="field">
+<%= fields_for "mandate[new_interview_attributes[]]",interview_object do |interview_form| %>
+<%= "Interview" %>
+<%= interview_form.text_field :name %>
+<% end %>
+</div>
+
